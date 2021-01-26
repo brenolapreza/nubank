@@ -1,6 +1,11 @@
 * { box-sizing: border-box; padding: 0; margin: 0; }
 
+html {
+
+    --brake-phone: 785px;
+    --brake-tablet: 900px;
+}
 
 body { 
     font-family: 'Rubik', sans-serif;
-}
+}   

@@ -9,6 +9,10 @@ const HeaderWrapper = styled.header`
     height:80px;
 
     border-bottom:1px solid #DCDCDC;
+
+    @media (max-width:800px){
+        display:none;
+    }
     
 `
 const HeaderGroup = styled.ul`

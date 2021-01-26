@@ -1,5 +1,5 @@
 import { HeaderWrapper, HeaderGroup, HeaderItem } from './style'
-import LogoNubank from '../../images/nubank-logo-3.png'
+import LogoNubank from '../../assets/images/nubank-logo-3.png'
 export default function Header(){
     return(
         <HeaderWrapper>

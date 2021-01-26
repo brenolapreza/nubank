@@ -1,8 +1,8 @@
 import Header from '../../components/header'
 
-import { SectionPrimary } from './style'
+import { SectionPrimary, Col1, Col2, Col3 } from './style'
 
-import ImageCelular from '../../images/img-celular.webp'
+import ImageCelular from '../../assets/images/img-celular.webp'
 
 export default function Home(){
     return(
@@ -10,18 +10,19 @@ export default function Home(){
             <Header/>
             <section>
                 <SectionPrimary>
-                    <div>
+                    <Col1>
                         <h1>Pix: um novo jeito de fazer transferências e pagamentos</h1>
                         <a href="/">Saiba como funciona</a>
-                    </div>
+                    </Col1>
 
-                    <div>
+                    <Col2>
                         <img src={ImageCelular} alt=""/>
-                    </div>
+                    </Col2>
 
-                    <div>
+                    <Col3>
                         { /*  FORMULARIO  */ }
-                    </div>
+                        <input type="text"/>
+                    </Col3>
                 </SectionPrimary>
             </section>
         </>
